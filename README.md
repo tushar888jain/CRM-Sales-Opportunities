@@ -53,9 +53,53 @@ The dataset consists of four related tables:
 
 ---
 
+## Project Workflow
+
+### Phase 1 – Data Exploration
+- Examined table structures
+- Explored records from each table
+- Identified primary and foreign keys
+
+### Phase 2 – Data Quality Checks
+- Checked duplicate opportunity IDs
+- Validated NULL values
+- Verified dataset consistency
+
+### Phase 3 – Data Modelling
+- Joined Accounts, Products, Sales Pipeline and Sales Teams
+- Built a unified dataset for analysis
+
+### Phase 4 – Business Analysis
+- Analysed revenue by product, sector, manager and sales agent
+- Ranked top-performing sales agents
+- Calculated average deal value
+- Categorised deals into value tiers using CASE statements
+- Compared performance using CTEs and Window Functions
+
+---
+
+## Key Insights
+
+- Identified the highest-performing sales agents based on total revenue.
+- Determined which products and customer sectors generated the highest revenue.
+- Compared manager and regional office performance.
+- Classified opportunities into High, Medium and Low value segments.
+- Ranked agents and products using SQL window functions.
+- Identified agents performing above the average revenue benchmark.
+
+---
+
+## Business Recommendations
+
+- Recognise and replicate the sales strategies of top-performing sales agents across the wider sales team.
+- Focus future sales efforts on the highest-performing products and customer sectors.
+- Monitor regional and managerial performance to identify opportunities for improvement.
+- Prioritise high-value opportunities to maximise overall revenue growth.
+
+
 ## Files
 
-- CRM_Sales_Analysis.sql
+- CRM SALES.1-SQL(project).sql
 - README.md
 
 ---
