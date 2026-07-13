@@ -37,7 +37,7 @@ The dataset consists of four related tables:
 - Subqueries
 - Common Table Expressions (CTEs)
 - Views
-- Window Functions (ROW_NUMBER, RANK, DENSE_RANK)
+- Window Functions (RANK, DENSE_RANK)
 
 ---
 
